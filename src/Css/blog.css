@@ -1,0 +1,11 @@
+.Card-Container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.blog{
+
+    width:10rem;
+    height:15rem;
+}
