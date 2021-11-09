@@ -23,7 +23,7 @@ function NavBar() {
                     data-rr-ui-dropdown-itemdata-rr-ui-dropdown-item
                     className="dropdown-item"
                     role="button"
-                    to="/blogs"
+                    to={`/blogs/${genre}`}
                   >
                     {genre}
                   </Link>

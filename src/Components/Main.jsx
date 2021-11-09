@@ -13,7 +13,7 @@ function Main() {
         <Switch>
           <Route path="/joinus"></Route>
           <Route path="/aboutus"></Route>
-          <Route path="/blogs">
+          <Route path="/blogs/:genre">
             {" "}
             <BlogsPage></BlogsPage>{" "}
           </Route>

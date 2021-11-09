@@ -1,9 +1,14 @@
 import React from 'react';
 import Blog from './Blog';
+
 import "../Css/blog.css";
-function BlogsPage(props) {
+import { useParams } from 'react-router';
+function BlogsPage() {
+  let  {genre}= useParams();
+  
     return (
         <div className="Card-Container" >
+            {genre}
             <Blog></Blog>
         </div>
     );
