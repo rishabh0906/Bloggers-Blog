@@ -9,7 +9,7 @@ function BlogsPage() {
     return (
         <div className="Card-Container" >
             {genre}
-            <Blog></Blog>
+            <Blog blogs={[1,2,3,4,5,6]} ></Blog>
         </div>
     );
 }

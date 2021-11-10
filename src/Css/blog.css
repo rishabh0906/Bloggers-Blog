@@ -1,3 +1,7 @@
+
+body{
+    scroll-behavior: smooth;
+}
 .Card-Container{
 
     display: flex;
@@ -8,4 +12,8 @@
 
     width:10rem;
     height:15rem;
+}
+
+.pagination{
+    justify-content: center;
 }
