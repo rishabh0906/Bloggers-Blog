@@ -1,10 +1,11 @@
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { categories } from "../helpers/category";
+import "../Css/NavBar.css"
 
 function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+    <Navbar collapseOnSelect className="" expand="lg" bg="primary" variant="dark">
       <Container>
         <Navbar.Brand href="#home" className="fs-4">
           Cadmus
