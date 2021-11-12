@@ -19,13 +19,9 @@ function Main() {
             <BlogsPage></BlogsPage>{" "}
           </Route>
           <Route path="/">
-            <Container>
-              <Row className=" mt-5 justify-content-md-center">
-                <Col xs={6}>
+      
                   <SignUp></SignUp>
-                </Col>
-              </Row>
-            </Container>
+            
           </Route>
         </Switch>
       </Router>
